@@ -40,7 +40,7 @@ module.exports = (robot) ->
     if isWriting is true 
       if secondMatch is msg.match[2]
         #after adding new response
-        msg.reply "OKA#{msg.match[1]} -> #{msg.match[2]} !"
+        msg.reply "OK! A#{msg.match[1]} -> #{msg.match[2]} !"
       else
         #existing response!
         msg.reply "#{msg.match[1]} is existing"
