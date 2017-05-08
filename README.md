@@ -2,7 +2,7 @@
 
 Slack上からhubotの語彙を増やせるスクリプトを作りました。
 
---
+- - 
 <Slackでの会話例>
 you: @hubot if i say お寿司 you say 食べたい
 hubot: OK! お寿司 -> 食べたい !
@@ -13,7 +13,7 @@ hubot: @you 可愛いは,作れる
 応援して,がんばって！
 お寿司,食べたい
 you: @hubot thanks!
---
+- - 
 
 responseList.txtに、反応する単語とそれに対する応答がセットで書かれています。
 例えば、
